@@ -1,0 +1,62 @@
+html,
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  background: orange;
+  color: #effbe3;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-family: "Press Start 2P", cursive, sans-serif;
+}
+button:hover {
+  background: #ff8b3d;
+}
+
+span {
+  color: #effbe3;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 5px 10px;
+  cursor: pointer;
+  text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+  font-family: "Press Start 2P", cursive, sans-serif;
+}
+
+.okay {
+  background-color: red;
+}
+
+p {
+  text-align: center;
+  background: #effbe3;
+  padding: 10px;
+  font-family: "Press Start 2P", cursive, sans-serif;
+  font-size: 10px;
+  color: grey;
+}
+
+#canvas {
+  width: 700px;
+  background-color: #71c4cc;
+  border-radius: 20px;
+}
+
+.ro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+h1 {
+  font-family: monospace;
+  color: red;
+}
+
+/*# sourceMappingURL=main.css.map */
